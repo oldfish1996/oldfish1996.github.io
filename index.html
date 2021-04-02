@@ -1,55 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <title></title>
-  <style type="text/css">
-    body{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    #wrapper{
-      min-height: 100vh;
-    }
-    #ball{
-      position: relative;
-      top: 50px;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background: radial-gradient(circle at 70% 30%,white 5%,gray 90%);
-      animation: .7s ease-in 0s infinite alternate running jump;
-    }
-    #ball::after{
-      content: '';
-      position: absolute;
-      top: 50px;
-      width: 50px;
-      height: 20px;
-      border-radius: 50%;
-      background: silver;
-     
-      animation: .7s ease-in 0s infinite alternate running shrink;
-    }
-    @keyframes jump{
-      from{top:200px;}
-      to{top:300px;}
-    }
-    @keyframes shrink{
-      from{
-        transform: scale(0.2);
-        top: 150px;
-      }
-      to{
-        transform: scale(1);
-        top: 50px;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐟老鱼的个人简介</title>
 </head>
 <body>
-  <div id="wrapper">
-    <div id="ball"></div>
-  </div>
+  <h1>老鱼传</h1>
+  <p>老鱼，名岩松，英文名oldfish。</p>
 </body>
 </html>
