@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>普通轮播图</title>
+  <link rel="stylesheet" href="./test.css">
+  <style>
+    * {padding: 0; margin: 0;}
+    ul li {list-style: none;}
+    body {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .swiper-wrapper {
+      position: relative;
+
+      margin-top: 100px;
+      width: 250px;
+      height: 400px;
+      /* border: 1px solid red; */
+      overflow: hidden;
+    }
+    .imgs-list,
+    .imgs-list li{
+      width: 100%;
+      height: 100%;
+    }
+    .imgs-list {
+      display: flex;
+      position: absolute;
+    }
+    img {
+      width: 250px;
+      height: 400px;
+    }
+    .dots-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute; 
+      bottom: 6px;
+      width: 100%;
+    }
+    .dot {
+      width: 20px;
+      height: 4px;
+      background-color: white;
+      border-radius: 2px;
+      margin: 8px;
+    }
+    .btn {
+      position: absolute;
+      width: 20px;
+      height: 30px;
+      top: 50%;
+			transform: translateY(-50%);
+    }
+    .btn:hover {
+      background-color: rgba(204,204,204, 0.3);
+    }
+    .pre-btn{left: 0;}
+    .next-btn{right: 0;}
+  </style>
+</head>
+<body>
+  <div class="swiper-wrapper">
+    
+  </div>
+</body>
+<script src="./swiper.js"></script>
+<script>
+  const imgArr = [
+    {
+      path: "./images/hahaha/1.jpg"
+    },
+    {
+      path: "./images/hahaha/2.jpg"
+    },
+    {
+      path: "./images/hahaha/3.jpg"
+    },
+  ];
+  const btnImg = [
+    {
+      id: "pre",
+      path: "./images/pre.png"
+    },
+    {
+      id: "next",
+      path: "./images/next.png"
+    }
+  ];
+  let obj = new Swiper({
+    imgArr: imgArr,
+    btnImg: btnImg,
+    animationTime: 500,
+    lastTime: 3000,
+    autoPlay: true,
+    width: 250
+  });
+  obj.init();
+</script>
+</html>
