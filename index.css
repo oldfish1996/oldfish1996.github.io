@@ -10,10 +10,10 @@ header {
   justify-content: center;
   align-items: center;
 
-  min-height: 60vh;
+  min-height: 40vh;
   min-width: 100vw;
   background: url(./images/header-bgimg2.jpeg);
-  background-size: 100vw 60vh;
+  background-size: 100vw 40vh;
 }
 #header {
   display: flex;
@@ -48,12 +48,11 @@ main {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 #article {
   width: 60%;
   /* border: 1px solid red; */
-
 }
 .article-list {
   display: flex;
