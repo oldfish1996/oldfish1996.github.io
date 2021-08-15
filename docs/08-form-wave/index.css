@@ -30,6 +30,7 @@ body {
   align-items: flex-start;
 }
 .form-control label {
+  font-size: 18px;
   position: absolute;
   top: 15px;
 }
