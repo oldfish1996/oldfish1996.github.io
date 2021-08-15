@@ -1,0 +1,42 @@
+* {box-sizing: border-box;}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  display: flex;
+}
+h2 {
+  font-size: 2rem;
+  color: #fff;
+  white-space: nowrap;
+}
+.left,.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex: 0.5;
+  transition: flex .7s ease-in-out;
+}
+button {
+  font-size: 20px;
+  border: 2px solid #fff;
+  width: 12rem;
+  height: 3rem;
+  color: #fff;
+  background-color: transparent;
+}
+button:hover {
+  border-color: rgb(233, 95, 233);
+  background-color: rgb(233, 95, 233);
+}
+.left:hover,.right:hover {
+  flex: 1;
+}
+.left {
+  background: center/cover url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnimg.ws.126.net%2F%3Furl%3Dhttp%253A%252F%252Fdingyue.ws.126.net%252F2021%252F0430%252Fd611db85p00qscuyq006ic000i600dmm.png%26thumbnail%3D650x2147483647%26quality%3D80%26type%3Djpg&refer=http%3A%2F%2Fnimg.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1631630704&t=914900da55619457cd098e48d3e1e17d');
+}
+.right {
+  background: left/cover url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F978e4c7c05d51db00b90b868c44107708e22ac67.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1631630773&t=0eefeab6941ec0bfa21056e6259ac1a5');
+}
