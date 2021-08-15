@@ -35,8 +35,8 @@ button:hover {
   flex: 1;
 }
 .left {
-  background: center/cover url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnimg.ws.126.net%2F%3Furl%3Dhttp%253A%252F%252Fdingyue.ws.126.net%252F2021%252F0430%252Fd611db85p00qscuyq006ic000i600dmm.png%26thumbnail%3D650x2147483647%26quality%3D80%26type%3Djpg&refer=http%3A%2F%2Fnimg.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1631630704&t=914900da55619457cd098e48d3e1e17d');
+  background: center/cover url('../../images/ps5.jpg');
 }
 .right {
-  background: left/cover url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F978e4c7c05d51db00b90b868c44107708e22ac67.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1631630773&t=0eefeab6941ec0bfa21056e6259ac1a5');
+  background: left/cover url('../../images/xbox.jpg');
 }
