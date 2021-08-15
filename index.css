@@ -1,5 +1,6 @@
 * {margin: 0;padding: 0;}
 body {
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex-flow: column;
   min-height: 100vh;
@@ -66,8 +67,8 @@ main {
 .article-list-link {
   padding-left: 10%;
   text-decoration: none;
-  font-family: 'Muli', sans-serif;
-  font-size: 26px;
+  font-size: 24px;
+  font-weight: bold;
   color: black;
 
   transition: color .3s;
