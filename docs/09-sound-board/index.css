@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {box-sizing: border-box;}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(158, 78, 233);
+}
+.title {
+  color: lightcoral;
+  margin-bottom: 100px;
+}
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+audio {
+  position: absolute;
+  top: 200px;
+}
+.sound {
+  margin: 20px;
+  padding: 20px 40px;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  transition: .3s linear;
+}
+.sound:hover {
+  color: lightcoral;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.stop {
+  width: 200px;
+  height: 50px;
+  margin-top: 200px;
+  border-radius: 6px;
+  font-size: 24px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: .3s linear;
+}
+.stop:hover {
+  cursor: pointer;
+  background-color: lightcoral;
+}
