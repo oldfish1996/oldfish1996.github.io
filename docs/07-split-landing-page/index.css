@@ -35,8 +35,8 @@ button:hover {
   flex: 1;
 }
 .left {
-  background: center/cover url('../../images/ps5.jpg');
+  background: center/cover url('./images/ps5.jpg');
 }
 .right {
-  background: left/cover url('../../images/xbox.jpg');
+  background: left/cover url('./images/xbox.jpg');
 }
